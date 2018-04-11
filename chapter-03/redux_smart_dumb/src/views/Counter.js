@@ -73,10 +73,10 @@ class CounterContainer extends Component {
   }
 
   render() {
-    return <Counter caption={this.props.caption}
+    return (<Counter caption={this.props.caption}
       onIncrement={this.onIncrement}
       onDecrement={this.onDecrement}
-      value={this.state.value} />
+      value={this.state.value} />)
   }
 }
 
